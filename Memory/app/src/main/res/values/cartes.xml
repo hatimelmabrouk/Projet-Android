@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Used in Spinner/spinner_2.java -->
+    <string-array name="cartes">
+
+        <item>logos</item>
+        <item>pingouins</item>
+        <item>coeurs</item>
+        <item>fantaisie</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Used in Spinner/spinner_2.java -->
+    <string-array name="level">
+
+        <item>facil</item>
+        <item>intermédiaire</item>
+        <item>dur</item>
+        <item>très dur</item>
+    </string-array>
+
+
+</resources>

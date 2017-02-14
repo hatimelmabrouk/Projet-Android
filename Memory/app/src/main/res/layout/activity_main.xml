@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/yellow"
+    tools:context="com.example.bouhaza.memory.MainActivity">
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scores"
+        android:background="@drawable/hight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:elevation="0dp"
+        tools:ignore="ContentDescription,HardcodedText,RelativeOverlap,UnusedAttribute"
+        android:contentDescription="" />
+
+
+    <Button
+        android:id="@+id/soundbtn"
+        android:layout_height="40dp"
+        android:background="@drawable/sound"
+        android:layout_width="40dp"
+        android:layout_alignTop="@+id/scores"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:background="@drawable/about"
+        android:contentDescription=""
+        tools:ignore="ContentDescription,RelativeOverlap"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play"
+        android:background="@drawable/jouer"
+        tools:ignore="ContentDescription"
+        android:layout_alignBaseline="@+id/about"
+        android:layout_alignBottom="@+id/about"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

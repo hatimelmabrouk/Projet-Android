@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="play">Play</string>
+    <string name="score">Score</string>
+    <string name="help">A propos du jeu</string>
+    <string name="high_scores">High scores</string>
+    <string name="sound_on">Sound on</string>
+    <string name="about">About</string>
+    <string name="bestscore">Best Scores</string>
+    <string name="how">Etes-vous pret a defier votre memoire au quotidien avec "Memory"? </string>
+    <string name="vide">0</string>
+    <string name="howcontent"> Un grand jeu pour exercer votre memoire, Les fonctions du jeu :
+- Trouver les differentes paires de cartes
+- Differents niveaux de difficulte
+- La grille s adapte automatiquement a votre dispositif
+- Logo avec des images colorees pour etre facilement reconnu </string>
+    <string name="textview">TextView</string>
+</resources>
